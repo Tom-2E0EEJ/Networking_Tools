@@ -15,3 +15,24 @@
     
     If you need to contact me for any reason please Email me at 2e0eej@gmx.com
 """
+#!/usr/bin/python3
+
+import os
+import socket
+
+host = "192.168.1.152"
+port = 81
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print('''
+Personal  Copyright (C) 2018  Tom
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it
+under certain conditions; Please see the licence document.
+''')
+sock.settimeout(2)
+result = sock.connect_ex((host, port))
+if result == 0:
+    print("The port is open.")
+else:
+    print("The port is closed.")
