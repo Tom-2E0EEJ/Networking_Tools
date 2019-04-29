@@ -1,4 +1,4 @@
-```
+"""
     Pinger, This is a application that pings a network node.
     Copyright (C) 2019 Thomas Scott
 
@@ -16,7 +16,7 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>. 
     
     If you need to contact me for any reason please Email me at 2e0eej@gmx.com
-```
+"""
 #!/usr/bin/python3
 
 import os
