@@ -55,10 +55,20 @@ ls
 
 ## Running the applications
 
+Running the application is simple and straight forward.
+This is as simple as running any other python3 application for the command line.
+
+an example of launching the pinger application is shown below.
+```
+sudo python3 Pinger.py
+```
+
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+They way to develop the application is to copy the applications or choosen
+application to the location fo use and run the application as instructed above.
+No further steps need to be taken to deploy these tools to your system.
 
 
 
@@ -72,16 +82,14 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Thomas Scott** - *Initial work* - [Tom-2E0EEJ](https://github.com/Tom-2E0EEJ)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU Affero General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Hat tip to anyone who contributes any code for this project.
